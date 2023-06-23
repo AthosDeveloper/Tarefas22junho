@@ -22,7 +22,7 @@ public class ContaPoupanca extends ContaBancaria {
     }
 public void caucularNovoSaldo(double atualizaSaldo){
 setDiaRendimento(atualizaSaldo);
-double atualiza = this.getSaldo() + this.getDiaRendimento();
+double atualiza = (this.getSaldo() + this.getDiaRendimento()) * 22;
 setSaldo(atualiza);
 }
 
